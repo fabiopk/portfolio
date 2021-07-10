@@ -13,9 +13,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hi, I'm Fabio Baldissera
+          Hi, I'm <span>Fabio Baldissera</span>
         </h1>
-
+        <p>
+          <Image src="/avatar.jpg" alt="Github Logo" width={200} height={200} />
+        </p>
         <p className={styles.description}>
         ⚛ Computer Vision Developer
         </p>
