@@ -12,15 +12,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Hi, I'm <span>Fabio Baldissera</span>
-        </h1>
-        <p>
-          <Image src="/avatar.jpg" alt="Github Logo" width={200} height={200} />
-        </p>
-        <p className={styles.description}>
+        <h1 className={styles.title}>Hi, I&apos;m Fabio Baldissera</h1>
+        <p><Image src="/avatar.jpg" alt="Github Logo" width={200} height={200} /></p>
+        <h2 className={styles.descrih4tion}>
         ⚛ Computer Vision Developer
-        </p>
+        </h2>
 
         
         <div className={styles.techs}>
